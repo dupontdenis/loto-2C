@@ -2,7 +2,7 @@ const container = document.querySelector(".container");
 const choices = document.querySelector(".choices");
 
 const handleSelect = function (event) {
-  const targetElement = event.target; // span ou li ou ul
+  const targetElement = event.target; 
 
   if (targetElement.closest("div")) {
     const selectedDiv = targetElement.closest(".container > div");
